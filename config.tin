@@ -1,0 +1,20 @@
+#variable {chat_file} {logs/chat.log}
+#variable {logs_dir} {logs/}
+#variable {save_dir} {save/}
+#variable {stats_dir} {stats/}
+#variable {trigs_dir} {trigs/}
+#variable {files_dir} {files/}
+#variable {scripts_dir} {scripts/}
+#variable {runs_dir} {runs/}
+#variable {modules_dir} {modules/}
+
+#config {SPEEDWALK} {OFF};
+#config {SPLIT};
+#config {PACKET PATCH} {5};
+#config {COLOR PATCH} {ON};
+#config {MCCP} {ON};
+#config {LOG} {RAW};
+#config {BUFFER SIZE} {2000000};
+#config {COMMAND COLOR} {<fcf>}; 
+
+#split {2} {1};

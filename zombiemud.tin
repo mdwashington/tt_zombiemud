@@ -1,0 +1,12 @@
+#read config.tin;
+
+#session {zombiemud} {zombiemud.org} {3000};
+
+#format {log_file} {logs/active/%t.log} {%Y-%m-%d};
+#log {APPEND} {$log_file};
+
+#action {Greco the Departure Gecko waves.} {#end}
+
+#format {start_time} {%T};
+
+#read {./modules/armor/armor.tin};

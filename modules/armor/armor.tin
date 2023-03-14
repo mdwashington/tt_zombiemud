@@ -1,0 +1,172 @@
+#class {armor_class} {kill};
+#class {armor_class} {open};
+
+#substitute {^Your armour offers you not even a sense of protection against physical damage.$} {
+    %0 [<148>neg<099>]
+} {9};
+
+#substitute {^Your armour offers you no protection against physical damage.$} {
+    %0 [<148>0<099>]
+} {9};
+
+#substitute {^Your armour offers you barely existent protection against physical damage.$} {
+    %0 [<148>1<099>]
+} {9};
+
+#substitute {^Your armour offers you hardly perceivable protection against physical damage.$} {
+    %0 [<148>2<099>]
+} {9};
+
+#substitute {^Your armour offers you tiny amount of protection against physical damage.$} {
+    %0 [<148>3<099>]
+} {9};
+
+#substitute {^Your armour offers you wretched protection against physical damage.$} {
+    %0 [<148>4<099>]
+} {9};
+
+#substitute {^Your armour offers you pathetic protection against physical damage.$} {
+    %0 [<148>5<099>]
+} {9};
+
+#substitute {^Your armour offers you bad protection against physical damage.$} {
+    %0 [<148>6<099>]
+} {9};
+
+#substitute {^Your armour offers you little protection against physical damage.$} {
+    %0 [<148>7<099>]
+} {9};
+
+#substitute {^Your armour offers you feeble protection against physical damage.$} {
+    %0 [<148>8<099>]
+} {9};
+
+#substitute {^Your armour offers you poor protection against physical damage.$} {
+    %0 [<148>9<099>]
+} {9};
+
+#substitute {^Your armour offers you subtle protection against physical damage.$} {
+    %0 [<148>10<099>]
+} {9};
+
+#substitute {^Your armour offers you a mere trace of protection against physical damage.$} {
+    %0 [<148>11<099>]
+} {9};
+
+#substitute {^Your armour offers you weak protection against physical damage.$} {
+    %0 [<148>12<099>]
+} {9};
+
+#substitute {^Your armour offers you slight protection against physical damage.$} {
+    %0 [<148>13<099>]
+} {9};
+
+#substitute {^Your armour offers you quite low protection against physical damage.$} {
+    %0 [<148>14<099>]
+} {9};
+
+#substitute {^Your armour offers you low protection against physical damage.$} {
+    %0 [<148>15<099>]
+} {9};
+
+#substitute {^Your armour offers you inadequate protection against physical damage.$} {
+    %0 [<148>16<099>]
+} {9};
+
+#substitute {^Your armour offers you fair protection against physical damage.$} {
+    %0 [<148>17<099>]
+} {9};
+
+#substitute {^Your armour offers you mediocre protection against physical damage.$} {
+    %0 [<148>18<099>]
+} {9};
+
+#substitute {^Your armour offers you moderate protection against physical damage.$} {
+    %0 [<148>19<099>]
+} {9};
+
+#substitute {^Your armour offers you average protection against physical damage.$} {
+    %0 [<148>20<099>]
+} {9};
+
+#substitute {^Your armour offers you above average protection against physical damage.$} {
+    %0 [<148>21<099>]
+} {9};
+
+#substitute {^Your armour offers you almost proper protection against physical damage.'$} {
+    %0 [<148>22<099>]
+} {9};
+
+#substitute {^Your armour offers you noticeable protection against physical damage.$} {
+    %0 [<148>23<099>]
+} {9};
+
+#substitute {^Your armour offers you adequate protection against physical damage.$} {
+    %0 [<148>24<099>]
+} {9};
+
+#substitute {^Your armour offers you decent protection against physical damage.$} {
+    %0 [<148>25<099>]
+} {9};
+
+#substitute {^Your armour offers you considerable amount of protection against physical damage.$} {
+    %0 [<148>26<099>]
+} {9};
+
+#substitute {^Your armour offers you good protection against physical damage.$} {
+    %0 [<148>27<099>]
+} {9};
+
+#substitute {^Your armour offers you nice protection against physical damage.$} {
+    %0 [<148>28<099>]
+} {9};
+
+#substitute {^Your armour offers you enviable protection against physical damage.$} {
+    %0 [<148>29<099>]
+} {9};
+
+#substitute {^Your armour offers you strong protection against physical damage.$} {
+    %0 [<148>30<099>]
+} {9};
+
+#substitute {^Your armour offers you very good protection against physical damage.$} {
+    %0 [<148>31<099>]
+} {9};
+
+#substitute {^Your armour offers you extremely good protection against physical damage.$} {
+    %0 [<148>32<099>]
+} {9};
+
+#substitute {^Your armour offers you great protection against physical damage.$} {
+    %0 [<148>33<099>]
+} {9};
+
+#substitute {^Your armour offers you excellent protection against physical damage.$} {
+    %0 [<148>34<099>]
+} {9};
+
+#substitute {^Your armour offers you incredible protection against physical damage.$} {
+    %0 [<148>35<099>]
+} {9};
+
+#substitute {^Your armour offers you awesome protection against physical damage.$} {
+    %0 [<148>36<099>]
+} {9};
+
+#substitute {^Your armour offers you partly impenetrable protection against physical damage.$} {
+    %0 [<148>37<099>]
+} {9};
+
+#substitute {^Your armour offers you close to perfect protection against physical damage.$} {
+    %0 [<148>38<099>]
+} {9};
+
+#substitute {^Your armour offers you nearly invincible protection against physical damage.$} {
+    %0 [<148>39<099>]
+} {9};
+
+#substitute {^Your armour offers you BEST protection against physical damage.$} {
+    %0 [<148>40<099>]
+} {9};
+
+#class {armor_class} {close};
