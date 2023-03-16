@@ -1,0 +1,32 @@
+#class {prompt} {kill};
+#class {prompt} {open};
+
+#action {^p: (-?\\d+) (-?\\d+) (-?\\d+) (-?\\d+) (-?\\d+) (-?\\d+) (-?\\d+) (-?\\d+) (-?\\d+) "([^"]*)" "([^"]*)" (.*)$} {
+    #var character[hp] %1; 
+    #var character[max_hp] %2;
+
+    #var character[sp] %3; 
+    #var character[max_sp] %4;
+
+    #var character[exp] %5;
+
+    #var character[cash] %6;
+
+    #var room[exits] %7;
+
+    #var character[rooms_explored] %8;
+
+    #var character[inventory][weight] %9;
+
+    #var last_kill_exp %10;
+
+    #var enemy %11;
+
+    #var character[alignment] %12;
+
+    #var party %13;
+
+    %0
+};
+
+#class {prompt} {close};

@@ -8,13 +8,26 @@
 #variable {runs_dir} {runs/}
 #variable {modules_dir} {modules/}
 
-#config {SPEEDWALK} {OFF};
-#config {SPLIT};
-#config {PACKET PATCH} {5};
-#config {COLOR PATCH} {ON};
-#config {MCCP} {ON};
-#config {LOG} {RAW};
-#config {BUFFER SIZE} {2000000};
-#config {COMMAND COLOR} {<fcf>}; 
+#CONFIG     {AUTO TAB}      {5000}
+#CONFIG     {BUFFER SIZE}   {1000000}
+#CONFIG     {CHARSET}       {UTF-8}
+#CONFIG     {COLOR MODE}    {TRUE}
+#CONFIG     {COLOR PATCH}   {ON}
+#CONFIG     {COMMAND COLOR} {<078>}
+#CONFIG     {COMMAND ECHO}	{ON}
+#CONFIG     {CONNECT RETRY}	{15}
+#CONFIG     {HISTORY SIZE}	{1000}
+#CONFIG     {LOG MODE}      {RAW}
+#CONFIG     {MOUSE}         {ON}
+#CONFIG     {PACKET PATCH}  {1l}
+#CONFIG     {REPEAT CHAR}   {!}
+#CONFIG     {REPEAT ENTER}  {ON}
+#CONFIG     {SCROLL LOCK}   {ON}
+#CONFIG     {SPEEDWALK}     {OFF}
+#CONFIG     {TINTIN CHAR}   {#}
+#CONFIG     {VERBATIM}      {OFF}
+#CONFIG     {VERBATIM CHAR} {\}
+#CONFIG     {VERBOSE}       {OFF}
+#CONFIG     {WORDWRAP}      {ON} 
 
-#split {2} {1};
+#split {1};
